@@ -1,0 +1,25 @@
+﻿body {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+    display: inline-block; 
+}
+
+li {
+    list-style-type: none;
+    font-weight: bold;
+}
+img {
+    height: 400px;
+    width: 250px;
+}
+
+div {
+    font-size: 20px;
+    font-weight: bold;
+}

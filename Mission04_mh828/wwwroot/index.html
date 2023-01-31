@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!-- WebPage Title & Favicon Implementation -->
+    <title>Meet Matthias!</title>
+    <link rel="icon" type="image/x-icon" href="img/bikeTire.jpeg">
+
+    <!-- Style Sheet Implementation
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!-- Web Page Title (Preferred Name), Picture of Me Rock Climbing, and What I Hope to Get out of IS 413 -->
+    <h1>Matthias Hulme</h1>
+    <img id="picOfMe" src="img/IMG_0020.jpeg" />
+    <p>
+        With the different computer programming classes that I've taken in Information Systems and Computer Science, I've grown to love technology and its many capabilities.
+        As I've been on the hunt for what I want to do with my life, software development on either the back end or front end, data engineering, and many other topics have caught my interest.
+        Web development is another thing that I've considered. Because C# with ASP.Net is a strong web development language, I hope to grow a better love for web development and to potentially
+        make a career out of it if I decide that's the best thing for me.
+    </p>
+    <br />
+
+    <!-- List of Top 3 Job Considerations After Graduation -->
+    <h3>My Top 3 Job Considerations After Graduation:</h3>
+    <ul>
+        <li>Data Engineering</li>
+        <li>Software Developer</li>
+        <li>Cyber Defense Analyst</li>
+    </ul>
+
+    <!-- Grade Calculator -->
+    <h2>Grade Calculator: (Please Enter Percentages) </h2>
+    <form>
+        <label>Assignments:</label>
+        <input id="percAssignments" /><br />
+        <label>Group Projects:</label>
+        <input id="percGP" /><br />
+        <label>Quizzes:</label>
+        <input id="percQuizzes" /><br />
+        <label>Midterm Exam:</label>
+        <input id="percMidterm" /><br />
+        <label>Final Exam:</label>
+        <input id="percFinal" /><br />
+        <label>Intex:</label>
+        <input id="percIntex" /><br />
+        <input id="btnCalculate" type="button" value="Calculate My Grade" />
+    </form>
+
+    <!-- Output for Grade Calculator -->
+    <br />
+    <div id="output"></div>
+
+    <!-- JavaScript file inclution -->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/gradeCalculator.js"></script>
+
+</body>
+</html>
