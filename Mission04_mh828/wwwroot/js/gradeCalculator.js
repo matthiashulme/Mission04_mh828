@@ -58,6 +58,6 @@
     // Adding Final Grade at the end of returnString
     returnString += " (Final Grade: " + total + "%)";
 
-    // Sending back returnString as html tag under output div
-    $("#output").html(returnString);
+    // Alerting to Screen
+    alert(returnString);
 })
