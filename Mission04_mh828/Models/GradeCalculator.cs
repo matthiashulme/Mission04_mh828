@@ -8,6 +8,7 @@ namespace Mission04_mh828.Models
 {
     public class GradeCalculator
     {
+        // Adding Integer Attributes with error messages and ranges for each attribut
         [Required (ErrorMessage = "Assignment Percentage Required")]
         [Range(0, 100, ErrorMessage = "Must be between 0 and 100")]
         public int? Assignments { get; set; }

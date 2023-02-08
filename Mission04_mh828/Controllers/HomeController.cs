@@ -9,16 +9,20 @@ namespace Mission04_mh828.Controllers
 {
     public class HomeController : Controller
     {
+        // Index Page View
         public IActionResult Index()
         {
             return View();
         }
 
+        // Grade Calculator View without model
         [HttpGet]
         public IActionResult GradeCalculator()
         {
             return View();
         }
+
+        // Grade Calculator View with Grade Calculator model
         [HttpPost]
         public IActionResult GradeCalculator(GradeCalculator model)
         {
